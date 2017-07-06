@@ -1,0 +1,420 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login with valid username and password",
+        "description": "",
+        "id": "login-test-verification;login-with-valid-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9452235717,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to \"qaurl\" with \"Chrome_browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaurl",
+                  "offset": 9
+                },
+                {
+                  "val": "Chrome_browser",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinationLogin.launchingURl(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73713909,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"Tester\" in the \"username_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 9
+                },
+                {
+                  "val": "username_id",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinationLogin.entertext(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52825574,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"test\" in the \"password_name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 9
+                },
+                {
+                  "val": "password_name",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinationLogin.entertext(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1799394344,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on \"singbtn_xpath\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "singbtn_xpath",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinationLogin.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104745275,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate that \"LstOfOdrs_xpath\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LstOfOdrs_xpath",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinationLogin.verifytext(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1383865721,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I logout from the application",
+            "match": {
+              "location": "StepDefinationLogin.logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145531089,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I close broswer",
+            "match": {
+              "location": "StepDefinationLogin.closeBr()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login with Invalid username and valid password",
+        "description": "",
+        "id": "login-test-verification;login-with-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6730494366,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I go to \"qaurl\" with \"Chrome_browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaurl",
+                  "offset": 9
+                },
+                {
+                  "val": "Chrome_browser",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinationLogin.launchingURl(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 80028576,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter \"ABCDEFG\" in the \"username_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABCDEFG",
+                  "offset": 9
+                },
+                {
+                  "val": "username_id",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinationLogin.entertext(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54434566,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter \"test\" in the \"password_name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 9
+                },
+                {
+                  "val": "password_name",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinationLogin.entertext(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469321780,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on \"singbtn_xpath\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "singbtn_xpath",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinationLogin.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106423733,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I validate that \"InvalidLogInMSg_xpath\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InvalidLogInMSg_xpath",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinationLogin.verifytext(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 187357829,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I close broswer",
+            "match": {
+              "location": "StepDefinationLogin.closeBr()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Login with blank username and blank password",
+        "description": "",
+        "id": "login-test-verification;login-with-blank-username-and-blank-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6631056331,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I go to \"qaurl\" with \"Chrome_browser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qaurl",
+                  "offset": 9
+                },
+                {
+                  "val": "Chrome_browser",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefinationLogin.launchingURl(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55624296,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter \"\" in the \"username_id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 9
+                },
+                {
+                  "val": "username_id",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinationLogin.entertext(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45670267,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter \"\" in the \"password_name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 9
+                },
+                {
+                  "val": "password_name",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinationLogin.entertext(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 448655947,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on \"singbtn_xpath\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "singbtn_xpath",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinationLogin.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92477372,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I validate that \"InvalidLogInMSg_xpath\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InvalidLogInMSg_xpath",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinationLogin.verifytext(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 162031456,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I close broswer",
+            "match": {
+              "location": "StepDefinationLogin.closeBr()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Login test Verification",
+    "description": "",
+    "id": "login-test-verification",
+    "keyword": "Feature",
+    "uri": "firstCucumberPackage/feature/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
